@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  padding: 20px 100px;
+  background: #161616;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.noise {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  content: "";
+  z-index: 1000;
+  opacity: 0.02;
+  pointer-events: none;
+  background: url('/noise.gif');
+}
