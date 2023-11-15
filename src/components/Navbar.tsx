@@ -1,8 +1,8 @@
 export default function Navbar() {
     return (
-        <nav className="flex items-center justify-between">
-            <img src="/logo.png" alt="My logo" className="w-10 float-left" />
-            <div className="flex gap-32 text-sm ">
+        <nav className="flex items-center justify-between h-30">
+            <img src="/logo.png" alt="My logo" className="w-10 float-left hidden md:block" />
+            <div className="flex lg:gap-32 gap-6 text-sm ">
                 <h3 className="transition-all hover:underline cursor-pointer">Home</h3>
                 <h3 className="hover:underline cursor-pointer">Sample Work</h3>
                 <h3 className="hover:underline cursor-pointer">About Me</h3>
