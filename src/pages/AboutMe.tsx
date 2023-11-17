@@ -21,6 +21,7 @@ export default function AboutMe() {
                         <h2 className='text-md'>Email: Oladipoeyiara@gmail.com</h2>
                         <h2 className='text-md mt-5'>LinkedIn: Eyiara Oladipo </h2>
                         <h2 className='text-md mt-5'>Phone Number: 555-7334</h2>
+                        <h2 className='text-md mt-5'>Github: Ara-O</h2>
                     </div>
                 </div>
             </section>
