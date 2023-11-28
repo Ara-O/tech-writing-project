@@ -37,18 +37,24 @@ This project was a great learning experience for me. I learned a lot about the i
     {
         name: "Windows 10 Clone",
         class: "Personal project",
-        description: "",
-        discussion: ``,
+        description: `This is a quick clone of the user interface of Windows 10. It helped me practice important 
+        skills like user interface design, animations, and coherence among webpage elements`,
+        discussion: `I really enjoyed working on this project as I started on it during the transition between Windows 10 and Windows 11.
+        I had used Windows 10 for a long time at that point, and I really enjoyed its user interface. Because of that, I decided that it would be a 
+        great opportunity to practice front-end development skills that I would be using in my future career.`,
         tags: "Personal Projects",
-        demoLink: "https://minim-react.vercel.app"
+        demoLink: "https://windows10clone.netlify.app/"
     },
     {
         name: "Budgeting Site",
         class: "Personal project",
-        description: "",
-        discussion: ``,
+        description: "This side made use of Nuxt.js, a Meta-framework for the Vue.js framework that provides greater flexibility, tooling, and features",
+        discussion: `This was one of my first long-term projects, as I made sure to go through as much of the development lifecycle as I can. I started with designing
+        my website using Figma, then I translated that design to code, and from that, I worked on improving the user interface with animations, user comfort features, and so on.
+        It also helps me work on visualization technologies like chart.js, which are well used in the work-force.
+        `,
         tags: "Personal Projects",
-        demoLink: "https://minim-react.vercel.app"
+        demoLink: "https://budgeting-site.netlify.app/"
     },
 ]
 export default function MyProjects() {

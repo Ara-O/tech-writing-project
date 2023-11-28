@@ -5,8 +5,8 @@ interface props {
 }
 export default function ProjectBox({ project }: props) {
     return (
-        <div className="border-solid border w-[550px] box-border px-10 py-7">
-            <h3 className="text-xl font-semibold">{project.name}</h3>
+        <div className="border-solid border w-[550px] box-border px-10 py-9">
+            <h3 className="text-2xl font-semibold">{project.name}</h3>
             <h3 className="mt-3 leading-7 text-[14.5px]"><span className="font-medium"> Description: </span> {project.description}</h3>
             <h2 className="mt-5 text-lg font-semibold">Discussion</h2>
             <h3 className="mt-3 leading-7 text-[14.5px]">{project.discussion}</h3>
