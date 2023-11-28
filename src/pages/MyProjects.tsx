@@ -23,7 +23,6 @@ I made sure to use clear and concise language that would be easy for beginners t
 This project was a great learning experience for me. I learned a lot about the inner workings of websites and I improved my technical writing skills. I am confident that the definition and description set that I created will be a valuable resource for beginners to software engineering.
         `,
         tags: "Technical Writing",
-        // What makes it useful for ur careeer
         demoLink: ""
     },
     {
@@ -33,7 +32,22 @@ This project was a great learning experience for me. I learned a lot about the i
         discussion: `This project helped me practice my React, design, and backend skills. I have always been a fan of simple note taking apps, but I have found that it can be difficult to find one that meets all of my needs. I wanted an app that was easy to use, had a clean design, and allowed me to easily organize my notes. I decided to make my own app to meet these needs. 
         I am very happy with the way the app turned out. It is simple to use, has a clean design, and allows me to easily organize my notes. I am confident that this app will be a valuable tool for me, and I hope that others will find it useful as well.`,
         tags: "Personal Projects",
-        // What makes it useful for ur careeer
+        demoLink: "https://minim-react.vercel.app"
+    },
+    {
+        name: "Windows 10 Clone",
+        class: "Personal project",
+        description: "",
+        discussion: ``,
+        tags: "Personal Projects",
+        demoLink: "https://minim-react.vercel.app"
+    },
+    {
+        name: "Budgeting Site",
+        class: "Personal project",
+        description: "",
+        discussion: ``,
+        tags: "Personal Projects",
         demoLink: "https://minim-react.vercel.app"
     },
 ]
@@ -41,10 +55,11 @@ export default function MyProjects() {
     return (
         <>
             <div className='noise'></div>
+            <div className='noise mt-[100vh]'></div>
             <Navbar />
 
             <h4 className="text-5xl mt-20 font-medium">My Projects</h4>
-            <section className="mt-10 flex gap-6">
+            <section className="mt-10 flex gap-6 flex-wrap">
                 {
                     projectList.map((project) => <ProjectBox project={project} />)
                 }

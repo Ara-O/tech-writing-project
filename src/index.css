@@ -19,5 +19,6 @@ html {
   z-index: 1000;
   opacity: 0.03;
   pointer-events: none;
+  background-repeat: repeat-x;
   background: url('/noise.gif');
 }

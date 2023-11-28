@@ -11,7 +11,7 @@ export default function Navbar() {
                 <Link to={'/about-me'}> <h3 className="hover:underline cursor-pointer">About Me</h3></Link>
                 <a href="/resume.pdf" target="_blank"><h3 className="hover:underline cursor-pointer">Resume</h3></a>
             </div>
-            <MainButton>Contact Me</MainButton>
+            <a href="https://mail.google.com/mail/u/0/?fs=1&to=oladipoeyiara@gmail.com&su=Subject&body=Body&tf=cm" target="_blank"><MainButton>Contact Me</MainButton></a>
         </nav>
     )
 }
