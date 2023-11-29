@@ -5,6 +5,7 @@
 html {
   padding: 20px 100px;
   background: #161616;
+  scroll-behavior: smooth;
   color: white;
   font-family: 'Poppins';
 }
@@ -20,5 +21,6 @@ html {
   opacity: 0.03;
   pointer-events: none;
   background-repeat: repeat-x;
+  background-repeat: repeat-y;
   background: url('/noise.gif');
 }

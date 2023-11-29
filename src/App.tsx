@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import ContactMe from './components/ContactMe'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className='noise'></div>
       <Navbar />
       <Hero />
+      <ContactMe />
     </>
   )
 }
